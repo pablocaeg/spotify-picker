@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="display.css">
+    <meta charset="utf-8">
+    
+    <title>Spotify experiment</title>
+</head>
+
+<body>
+  <!-- <div id="title-bar">
+        <div id="title"> </div>
+        <div id="title-bar-btns">
+          <button class="menu-button" id="dev-btn">🔧</button>
+          <button class="menu-button" id="min-btn">➖</button>
+          <button class="menu-button" id="max-btn">➕</button>
+          <button class="menu-button" id="close-btn">✖️</button>
+        </div>
+      </div>-->
+    <div id="board">
+      <div id="history-wrapper">
+        <div id="history-title">History</div>
+        <div class="history-box">
+          <div class="history-picture"> <img class="added-picture" src="" height="110" /></div>
+          <div class="history-song"></div>
+          <div class="history-artist"></div>
+          <div class="history-action"></div>
+          <button class="history-button" id="close-btn"onclick="removeAction(0)">🗑️</button>
+        </div>
+        <div class="history-box">
+          <div class="history-picture"> <img class="added-picture" src="" height="110" /></div>
+          <div class="history-song"></div>
+          <div class="history-artist"></div>
+          <div class="history-action"></div>
+          <button class="history-button" id="close-btn" onclick="removeAction(1)">🗑️</button>
+        </div>
+        <div class="history-box">
+          <div class="history-picture"><img class="added-picture" src="" height="110" /></div>
+          <div class="history-song"></div>
+          <div class="history-artist"></div>
+          <div class="history-action"></div>
+          <button class="history-button" id="close-btn" onclick="removeAction(2)">🗑️</button>
+        </div>
+      </div>
+      <div id="card-wrapper">
+        <div class="player">
+          <audio id="audio-element" autoplay loop=loop preload="none" style="background-color:#C8C8C8;" controls 
+              src="" type="audio/mpeg">
+               Your Browser Does Not Support Radio</audio>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="./display.js"></script>
+</body>
+
+</html>
